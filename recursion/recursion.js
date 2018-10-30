@@ -1,4 +1,4 @@
-// resursion
+// recursion
 let countDownFrom = (num) => {
   // ends function if num equals 0
   if (num === 0) return
