@@ -13,7 +13,7 @@ countDownFrom(10);
 // create animal tree from data 
 let cat = [
   {id: 'animal', 'parent': null},
-  {id: 'mammals', 'parent': 'animals'},
+  {id: 'mammals', 'parent': 'animal'},
   {id: 'cats', 'parent': 'mammals'},
   {id: 'dogs', 'parent': 'mammals'},
   {id: 'chihuahua', 'parent': 'dogs'},
